@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    
+
+
+</head>
+
+<body>
+    <div class="gamecontainer">
+        <div class="gameover">Game over</div>
+        <div class="dino animate "></div>
+        <div id="scorecont">Your score: 0</div>
+        <div class="obstacle obstacleani "></div>
+        <div class="bird birdani"></div>
+        <div class="deadimg "></div>
+        
+        <div class="restart">
+            <button class="btn1" onclick="restart1()">
+                Restart
+            </button>
+
+        </div>
+        <div class="buttonboard">
+            <div class="buttonright">
+                <img src="/left.png" alt="" srcset="" class="leftb" onclick="leftrun()">
+                
+                <img src="/right.png" alt="" srcset="" class="rightb" onclick="rightrun()">
+                
+            </div>
+            <div class="buttonleft">
+                <button class="btn" onclick="jump()">
+                    Jump
+                </button>
+            </div>
+        </div>    
+        
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/39aab1f952.js" crossorigin="anonymous"></script>
+    <!-- <embed src="/start.mp3" loop="true" autostart="true" width="2" height="0">  -->
+
+</body>
+
+</html>
